@@ -4,8 +4,8 @@
 int
 main()
 {
-  std::string name;             //переменная для имени
-  std::getline(std::cin, name); // читаем строку
-  std::cout << "Hello World from " << name << std::endl; //выводим результат
+  std::string name;             // variable for name
+  std::getline(std::cin, name); // read string
+  std::cout << "Hello World from " << name << std::endl; // print result
   return 0;
 }
